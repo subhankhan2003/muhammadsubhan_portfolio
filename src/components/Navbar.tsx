@@ -39,7 +39,7 @@ export default function Navbar({ activeSection, onNavigate }: NavbarProps) {
           onClick={() => handleNavigate('home')}
         >
           <div className="w-8 h-8 bg-gradient-to-r from-[#FF2E2E] to-[#00C2FF] rounded-lg flex items-center justify-center">
-            <span className="text-white font-black">MS</span>
+            <span className="text-white font-black">M.</span>
           </div>
           <span className="bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Subhan
